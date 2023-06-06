@@ -1,5 +1,5 @@
-import React, {Fragment, ReactNode} from 'react';
-import {useEffect, useGlobals, useRef, useState} from '@storybook/client-api';
+import React, {ReactNode} from 'react';
+import {useEffect, useGlobals} from '@storybook/client-api';
 import {
     PartialStoryFn as StoryFunction,
     Renderer,
